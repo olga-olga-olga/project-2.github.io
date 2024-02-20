@@ -1,8 +1,8 @@
 .image-container {
     background-image: url("../img/header.png");
-    background-attachment: fix;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 200px;
     align-items: center;
     }
