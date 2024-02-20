@@ -53,36 +53,16 @@
       </nav>
     </header>
     <!-- Конец header.html -->
-    <main class="pt-5 my-5"> 
-      <style>
-        div {
-          position: static;
-          height: 400px;
-          background-image: url("img/image-holder.png");
-          background-size: cover;
-          background-position: center;
-          color: black; /* Цвет текста */
-          text-align: center;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        h1{
-          text-align: center;
-        }
-      </style>
-        <body>
-          <div class="container">
-        
-            <h1>Project-2</h1>
-        
-          </div>
-        </body> 
-      <div class="container">
-        <!-- Блок content -->
-        <h1 class="pb-2 mb-0">Home page</h1>
-        <!-- Конец блока content -->
-      </div> 
+    <main class="pt-5 my-5">
+      .image-container {
+        background-image: url("img/image-holder.png");
+        background-attachment: fix;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      <div class="image-container">
+        <h1>Project-2</h1>
+      </div>
     </main>
     <!-- Вынести в footer.html -->
     <footer class="border-top text-center py-3">
