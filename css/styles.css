@@ -1,6 +1,6 @@
-image-container {
+.image-container {
     background-image: url("../img/header.png");
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: left;
