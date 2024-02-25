@@ -12,7 +12,7 @@
     border: 2px solid #000;
     width: auto;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(2, minmax(auto, 0.5fr)); /* Можете заменить 'auto' на нужную высоту строк */
+    grid-template-rows: repeat(2, 0.5fr); /* Можете заменить 'auto' на нужную высоту строк */
     gap: 20px; /* Пространство между ячейками */
   }
   
