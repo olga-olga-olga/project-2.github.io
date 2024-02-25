@@ -9,6 +9,7 @@
 
 .grid-container {
     display: grid;
+    background-attachment: fixed;
     border: 2px solid #000;
     grid-template-columns: repeat(2, 50vw);
     grid-template-rows: repeat(2, 1fr); /* Можете заменить 'auto' на нужную высоту строк */
