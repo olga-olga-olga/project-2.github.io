@@ -10,15 +10,16 @@
 .grid-container {
     display: grid;
     border: 2px solid #000;
-    width: 100vw;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr); /* Можете заменить 'auto' на нужную высоту строк */
+    width: auto;
+    grid-template-columns: repeat(2, 0.5fr);
+    grid-template-rows: repeat(2, minmax(auto, 0.5fr)); /* Можете заменить 'auto' на нужную высоту строк */
     gap: 20px; /* Пространство между ячейками */
   }
   
   .grid-item {
     width: 100%;
     height: auto;
+    object-fit: cover; /* Растягивает изображение, чтобы оно полностью заполнило ячейку */
   }
 
 
