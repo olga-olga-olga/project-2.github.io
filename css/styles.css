@@ -14,7 +14,7 @@
     grid-auto-flow: row;
     border: 3px solid #000;
     grid-auto-columns: 1fr;
-    max-height: 75%;
+    max-height: 65%;
     width: auto;
     grid-template-areas: 
             "a b"
@@ -23,7 +23,8 @@
   }
 
 .grid-item {
-    background-size: cover;
+    width: 100%; /* Изображения занимают всю ширину столбца */
+    height: 100%; /* Сохранение пропорций изображения */
 }
 
 
