@@ -23,7 +23,7 @@
   }
 
 .grid-item {
-    object-fit: cover;
+    background-size: cover;
 }
 
 
