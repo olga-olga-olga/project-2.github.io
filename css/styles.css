@@ -9,18 +9,25 @@
 
 .grid-container {
     display: grid;
+    gap: normal;
+    justify-items: stretch;
+    grid-auto-flow: row;
     border: 2px solid #000;
+    grid-auto-columns: 1fr;
     width: auto;
-    grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(2, 0.5fr); /* Можете заменить 'auto' на нужную высоту строк */
+    grid-template-areas: 
+            "a b"
+            "c d";
     gap: 20px; /* Пространство между ячейками */
   }
-  
-  .grid-item {
-    width: 100%;
+
+.grid-item {
+    width: auto;
     height: auto;
-    object-fit: cover; /* Растягивает изображение, чтобы оно полностью заполнило ячейку */
-  }
+    background-size: cover; /* Растягивает изображение, чтобы оно полностью заполнило ячейку */
+    background-position: center;
+}
+
 
 
 
@@ -32,6 +39,8 @@
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Два столбца */
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: repeat(2, 0.5fr); /* Можете заменить 'auto' на нужную высоту строк */
     gap: 20px; /* Промежуток между изображениями */
     border: 1px solid #000; /* Граница сплошная черная линия */
 }
