@@ -28,6 +28,25 @@
     background-position: center;
 }
 
+.a {
+    grid-area: a;
+    background-image: url('img/image1.jpg');
+}
+
+.b {
+    grid-area: b;
+    background-image: url('img/image2.jpg');
+}
+
+.c {
+    grid-area: c;
+    background-image: url('img/image3.jpg');
+}
+
+.d {
+    grid-area: d;
+    background-image: url('img/image4.jpg');
+}
 
 
 
