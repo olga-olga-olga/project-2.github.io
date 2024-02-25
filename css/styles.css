@@ -6,3 +6,13 @@
     height: 40vh;
     align-items: center;
 }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Два столбца */
+    gap: 20px; /* Промежуток между изображениями */
+}
+.image {
+    width: 100%; /* Изображения занимают всю ширину столбца */
+    height: auto; /* Сохранение пропорций изображения */
+}
