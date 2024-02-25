@@ -10,14 +10,14 @@
 .grid-container {
     display: grid;
     border: 2px solid #000;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto); /* Можете заменить 'auto' на нужную высоту строк */
+    grid-template-columns: repeat(2, 50vw);
+    grid-template-rows: repeat(2, 50vw); /* Можете заменить 'auto' на нужную высоту строк */
     gap: 10px; /* Пространство между ячейками */
   }
   
   .grid-item {
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover; /* Растягивает изображение, чтобы оно полностью заполнило ячейку */
   }
 
