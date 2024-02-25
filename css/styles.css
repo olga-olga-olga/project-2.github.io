@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.element {
+    border: 1px solid #000;
+  }
+
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Два столбца */
