@@ -9,7 +9,7 @@
 
 .grid-container {
     display: grid;
-    gap: normal;
+    gap: 0;
     justify-items: stretch;
     grid-auto-flow: row;
     grid-auto-columns: 1fr;
@@ -26,19 +26,4 @@
 
 .cover {
     object-fit: cover;
-}
-
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Два столбца */
-    grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(2, 0.5fr); /* Можете заменить 'auto' на нужную высоту строк */
-    gap: 20px; /* Промежуток между изображениями */
-    border: 1px solid #000; /* Граница сплошная черная линия */
-}
-.image {
-    width: 100%; /* Изображения занимают всю ширину столбца */
-    height: 100%; /* Сохранение пропорций изображения */
-    background-size: cover; /* Растягивает изображение, чтобы оно полностью заполнило ячейку */
-    object-fit: cover; /* Растягивает изображение, чтобы оно полностью заполнило ячейку */
 }
